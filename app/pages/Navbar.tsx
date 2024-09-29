@@ -1,3 +1,4 @@
+import Image from "next/image"; // Importing Image from Next.js
 import { FaUserCircle } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 
@@ -12,11 +13,18 @@ export function Navbar() {
     return (
         <nav className="flex w-full items-center justify-between px-[28px] py-[16px] lg:container lg:mx-auto lg:px-20 bg-gray-50 shadow-lg transition duration-300">
             <div className="flex items-center">
-                <img src="./assets/shop.png" alt="shop" className="w-12 h-auto" />
+                {/* Updated to use Next.js Image component */}
+                <Image
+                    src="/assets/shop.png" // Make sure the path is correct
+                    alt="shop"
+                    width={48} // Width in pixels
+                    height={48} // Height in pixels
+                    className="w-12 h-auto"
+                />
 
                 <div className="hidden lg:flex pl-[74px] gap-x-[56px]">
                     {navLinks.map((item, index) => (
-                        <div className="relative group">
+                        <div key={index} className="relative group"> {/* Added key prop */}
                             <p 
                                 className="text-[#36485C] font-medium transition duration-200 cursor-pointer group-hover:text-blue-600 transform group-hover:scale-105">
                                 {item.name}

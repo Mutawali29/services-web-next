@@ -7,7 +7,7 @@ const items = [
   {
     question: "What is the purpose of your service?",
     answer:
-      "Our service helps you monitor your website's performance and provides insights to enhance your online presence. We offer a customizable dashboard to keep you updated.",
+      "Our service helps you monitor your website&apos;s performance and provides insights to enhance your online presence. We offer a customizable dashboard to keep you updated.",
   },
   {
     question: "How can I get support if I encounter issues?",
@@ -22,7 +22,7 @@ const items = [
   {
     question: "What kind of analytics can I track?",
     answer:
-      "You can track various metrics, including visitor behavior, traffic sources, and conversion rates. Our dashboard provides a comprehensive view of your website's performance.",
+      "You can track various metrics, including visitor behavior, traffic sources, and conversion rates. Our dashboard provides a comprehensive view of your website&apos;s performance.",
   },
   {
     question: "Are there any setup fees?",
@@ -39,10 +39,10 @@ export function Faq() {
           Frequently Asked Questions
         </h3>
         <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px] xs:text-center lg:text-left">
-          Let's clarify some of your questions
+          Let&apos;s clarify some of your questions
         </h1>
         <p className="text-[#36485C] pb-[24px] xs:text-center lg:text-left">
-          We're here to help you find the answers you need quickly and easily.
+          We&apos;re here to help you find the answers you need quickly and easily.
         </p>
       </div>
 
@@ -66,7 +66,7 @@ export function Faq() {
                   </p>
                   <span>
                     <Image
-                      src="./assets/plus.svg"
+                      src="/assets/plus.svg"
                       alt="See more"
                       width={24}
                       height={24}
