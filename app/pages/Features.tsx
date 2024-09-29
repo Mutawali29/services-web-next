@@ -8,7 +8,7 @@ export function Features() {
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse shadow-lg rounded-lg p-6 bg-white">
         <div className="hidden w-1/2 sm:block">
           <Image
-            src="/assets/feature-1.svg"
+            src="./assets/feature-1.svg"
             alt="Illustration of sales monitoring feature"
             width={500}
             height={500}
@@ -24,7 +24,7 @@ export function Features() {
           </h1>
           <div className="pt-[24px] sm:hidden">
             <Image
-              src="/assets/feature-1.svg"
+              src="./assets/feature-1.svg"
               alt="Illustration of sales monitoring feature"
               width={500}
               height={500}
@@ -60,7 +60,7 @@ export function Features() {
       <div className="flex flex-col gap-x-6 sm:flex-row shadow-lg rounded-lg p-6 bg-white">
         <div className="hidden w-1/2 sm:block">
           <Image
-            src="/assets/feature-2.svg"
+            src="./assets/feature-2.svg"
             alt="Illustration of customer support feature"
             width={500}
             height={500}
@@ -76,7 +76,7 @@ export function Features() {
           </h1>
           <div className="pt-[24px] sm:hidden">
             <Image
-              src="/assets/feature-2.svg"
+              src="./assets/feature-2.svg"
               alt="Illustration of customer support feature"
               width={500}
               height={500}
@@ -112,7 +112,7 @@ export function Features() {
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse shadow-lg rounded-lg p-6 bg-white">
         <div className="hidden w-1/2 sm:block">
           <Image
-            src="/assets/feature-3.svg"
+            src="./assets/feature-3.svg"
             alt="Illustration of growth monitoring feature"
             width={500}
             height={500}
@@ -128,7 +128,7 @@ export function Features() {
           </h1>
           <div className="pt-[24px] sm:hidden">
             <Image
-              src="/assets/feature-3.svg"
+              src="./assets/feature-3.svg"
               alt="Illustration of growth monitoring feature"
               width={500}
               height={500}

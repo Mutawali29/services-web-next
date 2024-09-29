@@ -66,7 +66,7 @@ export function Faq() {
                   </p>
                   <span>
                     <Image
-                      src="/assets/plus.svg"
+                      src="./assets/plus.svg"
                       alt="See more"
                       width={24}
                       height={24}

@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <div className="pt-[80px] pb-[40px] bg-gray-100">
       <div className="flex items-center justify-center gap-x-[12px]">
-        <img src="/assets/shop.png" alt="shop" style={{ width: '50px', height: 'auto' }} />
+        <img src="./assets/shop.png" alt="shop" style={{ width: '50px', height: 'auto' }} />
         <p className="font-bold text-[#36485C] text-[17px]"></p>
       </div>
 

@@ -44,7 +44,7 @@ export function Hero() {
         {/* Hero Image */}
         <div className="absolute top-[0px] bottom-0 w-full flex justify-center">
           <img
-            src="assets/image.svg"
+            src="./assets/image.svg"
             alt="heroImg"
             className="w-[100%] max-w-[1500px] h-auto sm:mb-20 sm:mr-16 sm:mt-[-50px] xs:mr-14 xs:mt-[-150px] sm:h-[700px] lg:mb-28 lg:mr-20 lg:h-[700px] xl:w-[90%] animate-float"
           />
