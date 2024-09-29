@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Logo from "../../public/assets/Logo.svg"; // Assuming Logo is used elsewhere
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export function Footer() {

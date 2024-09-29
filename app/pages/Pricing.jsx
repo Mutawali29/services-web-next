@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { FaCheck } from "react-icons/fa";
 
 export function Pricing() {

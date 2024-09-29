@@ -2,10 +2,10 @@ import { FaUserCircle } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 
 const navLinks = [
-    { name: 'Features' },
-    { name: 'Pricing' },
-    { name: 'Enterprise' },
-    { name: 'Careers' },
+    { name: "Features" },
+    { name: "Pricing" },
+    { name: "Enterprise" },
+    { name: "Careers" },
 ];
 
 export function Navbar() {

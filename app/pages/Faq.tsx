@@ -54,33 +54,32 @@ export function Faq() {
           className="flex flex-col gap-y-4"
         >
           {items.map((item, index) => (
-            <div key={index}>
-              <Accordion.Item
-                value={`item-${index + 1}`}
-                className="bg-[#E3F1FF] p-[16px] border border-[#BFD3E7] rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
-              >
-                <Accordion.Header>
-                  <Accordion.Trigger className="flex w-full items-center justify-between">
-                    <p className="text-left font-medium text-[#172026] lg:text-[18px]">
-                      {item.question}
-                    </p>
-                    <span>
-                      <Image
-                        src="assets/plus.svg"
-                        alt="See more"
-                        width={24}
-                        height={24}
-                        className="h-10 w-10 lg:w-6 lg:h-6 transition-transform duration-200 transform hover:rotate-45"
-                      />
-                    </span>
-                  </Accordion.Trigger>
-                </Accordion.Header>
+            <Accordion.Item
+              key={`faq-item-${index}`}
+              value={`item-${index + 1}`}
+              className="bg-[#E3F1FF] p-[16px] border border-[#BFD3E7] rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
+            >
+              <Accordion.Header>
+                <Accordion.Trigger className="flex w-full items-center justify-between">
+                  <p className="text-left font-medium text-[#172026] lg:text-[18px]">
+                    {item.question}
+                  </p>
+                  <span>
+                    <Image
+                      src="/assets/plus.svg"
+                      alt="See more"
+                      width={24}
+                      height={24}
+                      className="transition-transform duration-200 transform hover:rotate-45"
+                    />
+                  </span>
+                </Accordion.Trigger>
+              </Accordion.Header>
 
-                <Accordion.Content>
-                  <p className="pt-2 text-[#36485C]">{item.answer}</p>
-                </Accordion.Content>
-              </Accordion.Item>
-            </div>
+              <Accordion.Content>
+                <p className="pt-2 text-[#36485C]">{item.answer}</p>
+              </Accordion.Content>
+            </Accordion.Item>
           ))}
         </Accordion.Root>
       </div>
