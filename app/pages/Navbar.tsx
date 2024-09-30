@@ -15,7 +15,7 @@ export function Navbar() {
             <div className="flex items-center">
                 {/* Updated to use Next.js Image component */}
                 <Image
-                    src="/assets/shop.png" // Make sure the path is correct
+                    src="./assets/shop.png" // Make sure the path is correct
                     alt="shop"
                     width={48} // Width in pixels
                     height={48} // Height in pixels
