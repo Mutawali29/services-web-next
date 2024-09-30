@@ -6,8 +6,8 @@ const nextConfig = {
   output: 'export',
   
   // Mengatur basePath dan assetPrefix berdasarkan lingkungan (produksi/pengembangan)
-  basePath: isProd ? '/serv' : '',
-  assetPrefix: isProd ? '/serv/' : '',
+  basePath: isProd ? '/services-web-next' : '',
+  assetPrefix: isProd ? '/services-web-next/' : '',
   
   // Menambahkan trailingSlash agar semua halaman memiliki slash di akhir (untuk mendukung halaman statis yang di-export)
   trailingSlash: true,
